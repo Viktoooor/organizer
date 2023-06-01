@@ -1,3 +1,11 @@
+### Start
+
+#### Before starting this project you have to setup mongoDB, OAuth, and create google account to send mails.
+#### After that you have to input all data to struct.env file in server folder and rename it with .env. And also you need to input your localhost ip to struct.env file in client and rename it with .env.
+#### To start go to folder client and install node modules with npm install. Then start with npm start.
+#### Then go to folder server and with same commands install and start server.
+#### Then it should be working on localhost:3000
+
 ### About
 
 #### My first project on React
