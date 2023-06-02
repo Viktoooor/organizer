@@ -48,8 +48,8 @@ export default class Store {
     }
 
     async logout() {
-        await AuthService.logout()
         localStorage.removeItem('token')
+        await AuthService.logout()
         this.setAuth(false)
         this.setUser({} as IUser)
     }
